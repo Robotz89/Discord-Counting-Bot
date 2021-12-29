@@ -5,7 +5,7 @@ app = Flask('')
 
 @app.route('/')
 def home():
-    return "I am now up and running as Galaxy Counting!"
+    return "I am now up and running as a Counting Bot!"
 
 def run():
   app.run(host='0.0.0.0',port=8080)
